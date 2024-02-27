@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gues-the-number</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Guess number conatiner START here -->
+      <div class="gues-number-container">
+        <h3 style="font-size: 30px">Guessing Game !</h3>
+        <div class="start-button">
+          <button type="button" id="restart-button">Restart the game</button>
+
+          <p class="total-attempt">Total Attempt 10 Times</p>
+          <p class="total-attempt" id="attempt-over">Input number 1 to 5</p>
+        </div>
+        <div class="output">
+          <p id="secreate-number">
+            <span>Your number</span> <span id="user-number">Empty</span> BUT
+            Secreat number is
+            <span id="number-is">Empty</span>
+          </p>
+        </div>
+        <div class="input-container">
+          <form id="input-form">
+            <input
+              class="input-number"
+              type="number"
+              name="number"
+              id="number"
+              min="1"
+              max="5"
+              autofocus
+            />
+            <input
+              class="input-number"
+              type="submit"
+              value="Submit"
+              id="submit"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- Guess number conatiner END here -->
+
+      <!-- Result section Start here -->
+      <div class="result-container">
+        <p id="message"></p>
+        <p id="win">You Won <span id="win-result"> 0 </span> Times</p>
+        <p id="lost">You Lose <span id="lost-result"> 0 </span> Times</p>
+        <div class="attempt-container">
+          <p>Your Attemps <span id="attempt">0</span></p>
+          <p>Remaining Attemps <span id="remaining-attempt">0</span></p>
+        </div>
+      </div>
+      <!-- Result section END here -->
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

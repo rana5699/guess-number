@@ -1,0 +1,127 @@
+.container {
+  width: 80%;
+  background-color: #d3d3d3;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#restart-button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(180, 164, 142);
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+#restart-button:hover {
+  background-color: rgb(58, 52, 43);
+  color: white;
+}
+#secreate-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.wrong-number {
+  color: red;
+}
+.correct-number {
+  color: green;
+}
+
+#number-is,
+#user-number {
+  font-size: 30px;
+  font-weight: bolder;
+  color: red;
+}
+#input-form {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.input-number {
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+#number {
+  border-radius: 50px 0px 0px 50px;
+  width: 200px;
+}
+#submit {
+  background: linear-gradient(to right, rgb(241, 112, 112), rgb(226, 226, 65));
+  border-right: 3px solid rgb(238, 238, 117);
+  cursor: pointer;
+}
+/* #submit:hover {
+  background: linear-gradient(to right, rgb(252, 2, 2), rgb(248, 248, 5));
+  border-right: 3px solid rgb(235, 235, 29);
+  color: white;
+} */
+
+.total-attempt {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(245, 239, 239);
+  width: fit-content;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: tomato;
+  margin-bottom: 5px;
+}
+
+#win,
+#lost {
+  font-size: 20px;
+  font-weight: 700;
+}
+#win {
+  color: green;
+}
+#lost {
+  color: red;
+}
+#win-result {
+  font-size: 35px;
+}
+#lost-result {
+  font-size: 35px;
+}
+.attempt-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(1, 22, 15);
+}
+#attempt {
+  color: red;
+  font-weight: bolder;
+  font-size: 35px;
+}
+#remaining-attempt {
+  color: green;
+
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.bg-win {
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
+.bg-lost {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 0, 85);
+}
